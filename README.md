@@ -1,8 +1,11 @@
 # Overview
-We collect 20 papers which state exponential quantum advantage for ground-state quantum chemistry.
-We classify them into three categories.
+This repository collects some representative papers in relation to the article, "Is there evidence of exponential quantum advantage in quantum chemistry" by Seunghoon Lee et al. The repository was created in response to a reviewer's comment that there were no claims of exponential quantum advantage (EQA) in quantum chemistry anywhere in the literature. The purpose is therefore not to criticize the papers below at all, but simply to provide a few examples where and in what sense these claims exist in the literature. The set is only representative, as many more such papers can be found. 
 
-<details><summary>Papers that explicitly state that ground-state computation (“electronic structure”) is exponentially spedup on quantum computers</summary>
+While some papers are very explicit in claiming EQA, others make such a claim only implicitly, but the context allows EQA to be inferred. We discuss this in more detail with each reference. 
+
+that explicitly or implicitly assume exponential quantum advantage for ground-state quantum chemistry. 
+
+<details><summary>Papers that explicitly state that ground-state computation is exponentially spedup on quantum computers</summary>
 <p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,7 +83,10 @@ We classify them into three categories.
 
 # Detail Statements
 
-## Papers that explicitly state that ground-state computation (“electronic structure”) is exponentially spedup on quantum computers
+## Papers that state that ground-state computation is exponentially spedup on quantum computers
+
+In these papers, there is generally some statement that obtaining the exact ground-state classically is exponentially expensive AND
+a statement that quantum computation for the same task is exponentially faster. 
 
 > ### Progress toward larger molecular simulation on a quantum computer: Simulating a system with up to 28 qubits accelerated by point-group symmetry
 > C. Cao, J. Hu, W. Zhang, X. Xu, D. Chen, F. Yu, J. Li, H. Hu, D. Lv, M. Yung
@@ -89,7 +95,34 @@ We classify them into three categories.
 > 
 >> 
 >> The exact evaluation of the molecular ground state in quantum chemistry requires an exponentially increasing computational cost. Quantum computation is a promising way to overcome the exponential problem using polynomial-time quantum algorithms.
+
+> ### Orthogonal State Reduction Variational Eigensolver for the Excited-State Calculations on Quantum Computers
+> Q. Xie, S. Liu, Y. Zhao
+> 
+> [![DOI:10.1021/acs.jctc.2c00159](https://img.shields.io/badge/DOI-10.1021/acs.jctc.2c00159-blue.svg)](https://doi.org/10.1021/acs.jctc.2c00159)
+> 
 >> 
+>> Some progress has been achieved in calculating the ground-state energies of molecules. The quantum phase estimation (QPE) algorithm has been shown to bring about exponential speedup over the currently best classical algorithms for determining the ground states of a given Hamiltonian.
+>> 
+
+
+## Papers that state that electronic structure or full configuration interaction/exact diagonalization is exponentially spedup on quantum computers
+
+
+
+
+> ### A quantum advantage for Density Functional Theory?
+> B. Senjean, S. Yalouz, M. Saubanère
+> 
+> [![DOI:10.48550/arXiv.2204.01443](https://img.shields.io/badge/DOI-10.48550/arXiv.2204.01443-blue.svg)](https://doi.org/10.48550/arXiv.2204.01443)
+> 
+>> 
+>> One of the nearest-term application of quantum computers is quantum chemistry, where the focus is on wavefunction theory (WFT) that targets a numerically exact solution of the electronic structure problem. While quantum phase estimation (QPE) algorithms are in principle capable of solving the problem in its entirety … However, despite the exponential speed-up announced by quantum computers, it remains … The full configuration interaction (FCI) method – equivalent to exact diagonalization – scales exponentially with respect to the system size, and an exponential speed-up is given by the KSDFT formalism or by employing quantum computers (QFCI).
+>> 
+
+
+
+
 
 > ### Elucidating reaction mechanisms on quantum computers
 > M. Reiher, N. Wiebe, K. Svore, D. Wecker, M. Troyer
@@ -99,6 +132,7 @@ We classify them into three categories.
 >> 
 >> The promise of exponential speedups for the electronic structure problem has led many to suspect that quantum computers will one day revolutionize chemistry and materials science.
 >> 
+
 
 > ### Towards quantum chemistry on a quantum computer
 > B. Lanyon, J. Whitfield, G. Gillett, M. Goggin, M. Almeida, I. Kassal, J. Biamonte, M. Mohseni, B. Powell, M. Barbieri,  others
@@ -128,14 +162,6 @@ It has been proposed that a quantum computer can simulate many-body physical qua
 >> The computationally challenging part arises from solving the effective problem of an interacting impurity coupled to a bath, which scales exponentially with system size on conventional computers. An exponential speedup is expected on quantum computers.
 >> 
 
-> ### A quantum advantage for Density Functional Theory?
-> B. Senjean, S. Yalouz, M. Saubanère
-> 
-> [![DOI:10.48550/arXiv.2204.01443](https://img.shields.io/badge/DOI-10.48550/arXiv.2204.01443-blue.svg)](https://doi.org/10.48550/arXiv.2204.01443)
-> 
->> 
->> One of the nearest-term application of quantum computers is quantum chemistry, where the focus is on wavefunction theory (WFT) that targets a numerically exact solution of the electronic structure problem. While quantum phase estimation (QPE) algorithms are in principle capable of solving the problem in its entirety … However, despite the exponential speed-up announced by quantum computers, it remains … The full configuration interaction (FCI) method – equivalent to exact diagonalization – scales exponentially with respect to the system size, and an exponential speed-up is given by the KSDFT formalism or by employing quantum computers (QFCI).
->> 
 
 > ### An efficient adaptive variational quantum solver of the Schrödinger equation based on reduced density matrices
 > J. Liu, Z. Li, J. Yang
@@ -216,14 +242,7 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 
 ## Papers that state that quantum phase estimation allows for exponential speedup for energies, then discuss the ground-state problem without discussing state preparation
 
-> ### Orthogonal State Reduction Variational Eigensolver for the Excited-State Calculations on Quantum Computers
-> Q. Xie, S. Liu, Y. Zhao
-> 
-> [![DOI:10.1021/acs.jctc.2c00159](https://img.shields.io/badge/DOI-10.1021/acs.jctc.2c00159-blue.svg)](https://doi.org/10.1021/acs.jctc.2c00159)
-> 
->> 
->> Some progress has been achieved in calculating the ground-state energies of molecules. The quantum phase estimation (QPE) algorithm has been shown to bring about exponential speedup over the currently best classical algorithms for determining the ground states of a given Hamiltonian.
->> 
+
 
 > ### A variational eigenvalue solver on a photonic quantum processor
 > A. Peruzzo, J. McClean, P. Shadbolt, M. Yung, X. Zhou, P. Love, A. Aspuru-Guzik, J. O’brien
