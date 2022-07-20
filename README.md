@@ -1,6 +1,8 @@
 # Overview
 This repository collects some representative papers in relation to the article, "Is there evidence of exponential quantum advantage in quantum chemistry" by Seunghoon Lee et al. We created this list in response to a reviewer's comment that they were not aware of any claims of exponential quantum advantage (EQA) in quantum chemistry in the literature. The purpose of the list is not to criticize the papers or authors below in any way, but rather simply to provide a few examples that
-show where and in what sense these statements exist in the literature. Note that the set is only representative; many more such papers exist with alternative authors.
+show where and in what sense these statements exist in the literature. 
+
+Note that the set below is only representative; many more such papers exist with alternative authors. Also some of the papers below are very highly cited in journals with broad audiences, others are less so, or may be in more specialized journals; the purpose is to simply sample the literature out there.
 
 While some papers contain quite direct statements about EQA for ground-state chemistry, others have more indirect statements or assumptions, which
 might reasonably be interpreted by a reader to mean that EQA is implied. We discuss this in more detail with each reference. 
