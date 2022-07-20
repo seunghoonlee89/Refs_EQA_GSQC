@@ -36,6 +36,15 @@ a statement that quantum computation for the same task is exponentially faster.
 >> It was shown early on that quantum phase estimation (QPE) provides an exponential speed-up over the best “currently” known classical algorithms for determining the ground state of the molecular Hamiltonian.
 >> 
 
+> ### Quantum chemistry simulation on quantum computers: theories and experiments
+> D. Lu, B. Xu, N. Xu, Z. Li, H. Chen, X. Peng, R. Xu, J. Du
+>
+> [![DOI:10.1039/C2CP23700H](https://img.shields.io/badge/DOI-10.1039/C2CP23700H-blue.svg)](https://doi.org/10.1039/C2CP23700H)
+>
+>>
+>> This is the same situation as in quantum chemistry, where given a time-independent Hamiltonian of a molecule, the first task is to calculate the ground state energy, i.e., the lowest eigenvalue of the Hamiltonian. In classical computers, it is a non-deterministic polynomial (NP) problem. All known classical algorithms for it require exponential time. On the other hand, quantum algorithm or quantum simulation is theoretically proved to be able to solve this problem efficiently, in polynomial time.
+>>
+
 ## Papers that state that electronic structure and/or full configuration interaction/exact diagonalization/computation of exact energies is exponentially spedup on quantum computers
 
 These papers have the characteristics that (i) the main application discussed is ground-state electronic structure, and (ii) there are statements that quantum computers (may) exponentially speedup electronic structure/computation of exact energies/full configuration interaction/many-body simulations, without explicitly referencing exponential speedup for ground state electronic structure/exact ground-state energies/ground-state full configuration interaction/ground-state many-body simulations. For example, a prototype of such a statement might be "exact computation of the ground-state energy is exponentially hard classically; quantum phase estimation allows 
@@ -160,4 +169,22 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 >> 
 >> Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems ... Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.
 >> 
+
+> ### Qubit coupled cluster method: a systematic approach to quantum chemistry on a quantum computer
+> I. G. Ryabinkin, T. C. Yen, S. N. Genin, A. F. Izmaylov
+>
+> [![DOI:10.1021/acs.jctc.8b00932](https://img.shields.io/badge/DOI-10.1021/acs.jctc.8b00932-blue.svg)](https://doi.org/10.1021/acs.jctc.8b00932)
+>
+>>
+>> Computational cost of the exact numerical solution of eq 1 scales exponentially with the size (e.g., the number of electrons) of the system on a classical computer. To address this issue without introducing approximations, it was proposed to employ a quantum computer, which may solve the problem with polynomial scaling of computational cost with the system size.
+>>
+
+> ### Quantum computing enhanced computational catalysis
+> V. von Burg, G. H. Low, T. Häner, D. S. Steiger, M. Reiher, M. Roetteler, M. Troyer
+>
+> [![DOI:10.1103/PhysRevResearch.3.033055](https://img.shields.io/badge/DOI-10.1103/PhysRevResearch.3.033055-blue.svg)](https://doi.org/10.1103/PhysRevResearch.3.033055)
+>
+>>
+>> Quantum computing has the potential to efficiently solve some computational problems that are exponentially hard to solve on classical computers. Among these problems, one of the most prominent cases is the calculation of quantum electronic energies in molecular systems.
+>>
 
