@@ -12,14 +12,6 @@ might reasonably be interpreted by a reader to mean that EQA is implied. We disc
 In these papers, there is generally some statement that obtaining the exact ground-state classically is exponentially expensive AND
 a statement that quantum computation for the same task is exponentially faster. 
 
-> ### Progress toward larger molecular simulation on a quantum computer: Simulating a system with up to 28 qubits accelerated by point-group symmetry
-> C. Cao, J. Hu, W. Zhang, X. Xu, D. Chen, F. Yu, J. Li, H. S. Hu, D. Lv, M. H. Yung
-> 
-> [![DOI:10.1103/PhysRevA.105.062452](https://img.shields.io/badge/DOI-10.1103/PhysRevA.105.062452-blue.svg)](https://doi.org/10.1103/PhysRevA.105.062452)
-> 
->> 
->> The exact evaluation of the molecular ground state in quantum chemistry requires an exponentially increasing computational cost. Quantum computation is a promising way to overcome the exponential problem using polynomial-time quantum algorithms.
-
 > ### Orthogonal State Reduction Variational Eigensolver for the Excited-State Calculations on Quantum Computers
 > Q. X. Xie, S. Liu, Y. Zhao
 > 
@@ -46,6 +38,15 @@ a statement that quantum computation for the same task is exponentially faster.
 >>
 >> This is the same situation as in quantum chemistry, where given a time-independent Hamiltonian of a molecule, the first task is to calculate the ground state energy, i.e., the lowest eigenvalue of the Hamiltonian. In classical computers, it is a non-deterministic polynomial (NP) problem. All known classical algorithms for it require exponential time. On the other hand, quantum algorithm or quantum simulation is theoretically proved to be able to solve this problem efficiently, in polynomial time.
 >>
+
+> ### Progress toward larger molecular simulation on a quantum computer: Simulating a system with up to 28 qubits accelerated by point-group symmetry
+> C. Cao, J. Hu, W. Zhang, X. Xu, D. Chen, F. Yu, J. Li, H. S. Hu, D. Lv, M. H. Yung
+> 
+> [![DOI:10.1103/PhysRevA.105.062452](https://img.shields.io/badge/DOI-10.1103/PhysRevA.105.062452-blue.svg)](https://doi.org/10.1103/PhysRevA.105.062452)
+> 
+>> 
+>> The exact evaluation of the molecular ground state in quantum chemistry requires an exponentially increasing computational cost. Quantum computation is a promising way to overcome the exponential problem using polynomial-time quantum algorithms.
+
 
 ## Papers that state that electronic structure and/or full configuration interaction/exact diagonalization/computation of exact energies is exponentially spedup on quantum computers
 
