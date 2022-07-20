@@ -1,95 +1,9 @@
 # Overview
-This repository collects some representative papers in relation to the article, "Is there evidence of exponential quantum advantage in quantum chemistry" by Seunghoon Lee et al. The repository was created in response to a reviewer's comment that they were not aware of any claims of exponential quantum advantage (EQA) in quantum chemistry in the literature. The purpose is therefore not to criticize the papers below in any way, but simply to provide a few examples where and in what sense these claims exist in the literature. Note that the set is only representative, many more such papers, with alternative authors, can be found. 
+This repository collects some representative papers in relation to the article, "Is there evidence of exponential quantum advantage in quantum chemistry" by Seunghoon Lee et al. We created this list in response to a reviewer's comment that they were not aware of any claims of exponential quantum advantage (EQA) in quantum chemistry in the literature. The purpose of the list is not to criticize the papers or authors below in any way, but rather simply to provide a few examples that
+show where and in what sense these statements exist in the literature. Note that the set is only representative; many more such papers exist with alternative authors.
 
-While some papers are very explicit in claiming EQA, others make such a claim only implicitly, but the context allows EQA to be inferred. We discuss this in more detail with each reference. 
-
-that explicitly or implicitly assume exponential quantum advantage for ground-state quantum chemistry. 
-
-<details><summary>Papers that state that ground-state computation is exponentially spedup on quantum computers</summary>
-<p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1103/PhysRevA.105.062452](https://img.shields.io/badge/DOI-10.1103/PhysRevA.105.062452-blue.svg)](https://doi.org/10.1103/PhysRevA.105.062452) [C. Cao et al., *Phys. Rev. A*, **105**, 062452 (2022).](#progress-toward-larger-molecular-simulation-on-a-quantum-computer-simulating-a-system-with-up-to-28-qubits-accelerated-by-point-group-symmetry)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1021/acs.jctc.2c00159](https://img.shields.io/badge/DOI-10.1021/acs.jctc.2c00159-blue.svg)](https://doi.org/10.1021/acs.jctc.2c00159) [Q. X. Xie et al., *JCTC*, **18**, 3737 (2022).](#orthogonal-state-reduction-variational-eigensolver-for-the-excited-state-calculations-on-quantum-computers)
-
-</p>
-</details>
-
-<details><summary>Papers that state that electronic structure or full configuration interaction/exact diagonalization is exponentially spedup on quantum computers</summary>
-<p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.48550/arXiv.2204.01443](https://img.shields.io/badge/DOI-10.48550/arXiv.2204.01443-blue.svg)](https://doi.org/10.48550/arXiv.2204.01443) [B. Senjean et al., *arXiv preprint*, 2204.01443 (2022).](#toward-density-functional-theory-on-quantum-computers)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1073/pnas.1619152114](https://img.shields.io/badge/DOI-10.1073/pnas.1619152114-blue.svg)](https://doi.org/10.1073/pnas.1619152114) [M. Reiher et al., *PNAS*, **114**, 7555 (2017).](#elucidating-reaction-mechanisms-on-quantum-computers)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1038/nchem.483](https://img.shields.io/badge/DOI-10.1038/nchem.483-blue.svg)](https://doi.org/10.1038/nchem.483) [B. P. Lanyon et al., *Nat. Chem.*, **2**, 106 (2010).](#towards-quantum-chemistry-on-a-quantum-computer)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1038/s41586-022-04603-6](https://img.shields.io/badge/DOI-10.1038/s41586--022--04603--6-blue.svg)](https://doi.org/10.1038/s41586-022-04603-6) [T. M. Graham et al., *Nature*, **604**, 457 (2022).](#multi-qubit-entanglement-and-algorithms-on-a-neutral-atom-quantum-computer)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.48550/arXiv.1910.04735](https://img.shields.io/badge/DOI-10.48550/arXiv.1910.04735-blue.svg)](https://doi.org/10.48550/arXiv.1910.04735) [I. Rungger et al., *arXiv preprint*, 1910.04735 (2019).](#dynamical-mean-field-theory-algorithm-and-experiment-on-quantum-computers)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1063/5.0054822](https://img.shields.io/badge/DOI-10.1063/5.0054822-blue.svg)](https://doi.org/10.1063/5.0054822) [J. Liu et al., *JCP*, **154**, 244112 (2021).](#an-efficient-adaptive-variational-quantum-solver-of-the-schrödinger-equation-based-on-reduced-density-matrices)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1109/TQE.2020.3035814](https://img.shields.io/badge/DOI-10.1109/TQE.2020.3035814-blue.svg)](https://doi.org/10.1109/TQE.2020.3035814) [P. Gokhale et al., *IEEE TQE*, **1**, 1 (2020).](#on-measurement-cost-for-variational-quantum-eigensolver-on-molecular-hamiltonians)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1073/pnas.0808245105](https://img.shields.io/badge/DOI-10.1073/pnas.0808245105-blue.svg)](https://doi.org/10.1073/pnas.0808245105) [I. Kassal et al., *PNAS*, **105**, 18681 (2008).](#polynomial-time-quantum-algorithm-for-the-simulation-of-chemical-dynamics)
-
-</p>
-</details>
-<details><summary>Papers that state that quantum chemistry or obtaining energies is exponentially spedup on quantum computers, which then go on to discuss the ground-state problem</summary>
-<p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1039/B804804E](https://img.shields.io/badge/DOI-10.1039/B804804E-blue.svg)](https://doi.org/10.1039/B804804E) [H. Wang et al., *PCCP*, **10**, 5388 (2008).](#quantum-algorithm-for-obtaining-the-energy-spectrum-of-molecular-systems)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.48550/arXiv.2009.12472](https://img.shields.io/badge/DOI-10.48550/arXiv.2009.12472-blue.svg)](https://doi.org/10.48550/arXiv.2009.12472) [V. E. Elfving et al., *arXiv preprint*, 2009.12472 (2020).](#how-will-quantum-computers-provide-an-industrially-relevant-computational-advantage-in-quantum-chemistry)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1063/1.3503767](https://img.shields.io/badge/DOI-10.1063/1.3503767-blue.svg)](https://doi.org/10.1063/1.3503767) [L. Veis et al., *JCP*, **133**, 194106 (2010).](#quantum-computing-applied-to-calculations-of-molecular-energies-ch2-benchmark)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1103/PhysRevLett.123.130501](https://img.shields.io/badge/DOI-10.1103/PhysRevLett.123.130501-blue.svg)](https://doi.org/10.1103/PhysRevLett.123.130501) [G. Mazzola et al., *PRL*, **123**, 130501 (2019).](#nonunitary-operations-for-ground-state-calculations-in-near-term-quantum-computers)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1021/acs.jctc.1c01170](https://img.shields.io/badge/DOI-10.1021/acs.jctc.1c01170-blue.svg)](https://doi.org/10.1021/acs.jctc.1c01170) [L. Ratini et al., *JCTC*, **18**, 899 (2022).](#wave-function-adapted-hamiltonians-for-quantum-computing)
-
-</p>
-</details>
-<details><summary>Papers that state that quantum phase estimation allows for exponential speedup for energies, then discuss the ground-state problem without discussing state preparation</summary>
-<p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1038/ncomms5213](https://img.shields.io/badge/DOI-10.1038/ncomms5213-blue.svg)](https://doi.org/10.1038/ncomms5213) [A. Peruzzo et al., *Nat. Comm.*, **5**, 1 (2014).](#a-variational-eigenvalue-solver-on-a-photonic-quantum-processor)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1021/acs.jctc.0c00881](https://img.shields.io/badge/DOI-10.1021/acs.jctc.0c00881-blue.svg)](https://doi.org/10.1021/acs.jctc.0c00881) [J. Liu et al., *JCTC*, **16**, 6904 (2020).](#simulating-periodic-systems-on-a-quantum-computer-using-molecular-orbitals)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1021/acs.jctc.8b01004](https://img.shields.io/badge/DOI-10.1021/acs.jctc.8b01004-blue.svg)](https://doi.org/10.1021/acs.jctc.8b01004) [J. Lee et al., *JCTC*, **15**, 311 (2019).](#generalized-unitary-coupled-cluster-wave-functions-for-quantum-computation)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1103/PhysRevLett.122.090504](https://img.shields.io/badge/DOI-10.1103/PhysRevLett.122.090504-blue.svg)](https://doi.org/10.1103/PhysRevLett.122.090504) [Z. Li et al., *PRL*, **122**, 090504 (2019).](#quantum-simulation-of-resonant-transitions-for-solving-the-eigenproblem-of-an-effective-water-hamiltonian)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.48550/arXiv.2207.00085](https://img.shields.io/badge/DOI-10.48550/arXiv.2207.00085-blue.svg)](https://doi.org/10.48550/arXiv.2207.00085) [H. G. A. Burton et al., *arXiv preprint*, 2207.00085 (2022).](#exact-electronic-states-with-shallow-quantum-circuits-through-global-optimisation)
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![DOI:10.1109/IISWC.2014.6983057](https://img.shields.io/badge/DOI-10.1109/IISWC.2014.6983057-blue.svg)](https://doi.org/10.1109/IISWC.2014.6983057) [S. Patil et al., *IEEE IISWC*, 181 (2014).](#characterizing-the-performance-effect-of-trials-and-rotations-in-applications-that-use-quantum-phase-estimation)
-
-</p>
-</details>
-
+While some papers have contain literal statements about EQA for ground-state chemistry, others have more indirect statements or assumptions, which
+might reasonably be interpreted by a reader to mean EQA. We discuss this in more detail with each reference. 
 
 ## Papers that state that ground-state computation is exponentially spedup on quantum computers
 
