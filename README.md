@@ -38,7 +38,8 @@ a statement that quantum computation for the same task is exponentially faster.
 
 ## Papers that state that electronic structure and/or full configuration interaction/exact diagonalization/computation of exact energies is exponentially spedup on quantum computers
 
-These papers have the characteristics that (i) the main application discussed is ground-state electronic structure, and (ii) there are statements that quantum computers exponentially speedup electronic structure/computation of exact energies/full configuration interaction/many-body simulations, without explicitly stating an exponential speedup for ground state electronic structure/exact ground-state energies/ground-state full configuration interaction/ground-state many-body simulations. However, due to (i) a reader might reasonably infer that (ii) applies in the context of (i). A few of the papers discuss state preparation, others omit it entirely.
+These papers have the characteristics that (i) the main application discussed is ground-state electronic structure, and (ii) there are statements that quantum computers (may) exponentially speedup electronic structure/computation of exact energies/full configuration interaction/many-body simulations, without explicitly referencing exponential speedup for ground state electronic structure/exact ground-state energies/ground-state full configuration interaction/ground-state many-body simulations. For example, a prototype of such a statement might be "exact computation of the ground-state energy is exponentially hard classically; quantum phase estimation allows 
+exact energies to be obtained in polynomial time". Because of the juxtaposition of these comments, and because of the emphasis of the papers on (i), one might assume EQA for ground-states is implied. 
 
 > ### Elucidating reaction mechanisms on quantum computers
 > M. Reiher, N. Wiebe, K. Svore, D. Wecker, M. Troyer
