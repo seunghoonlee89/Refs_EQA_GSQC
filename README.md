@@ -200,15 +200,6 @@ It has been proposed that a quantum computer can simulate many-body physical qua
 >> An alternative way to compute a potential energy surface would be to embed an on-the-fly calculation of electronic structure in the quantum algorithm and thus avoid a classically precomputed fit. This can be done efficiently because electronic structure calculations can be performed in polynomial time on quantum computers. Hence, the quantum circuit 𝒱 would be replaced by a black box containing the efficient quantum version of the full configuration interaction (FCI) procedure.
 >> 
 
-> ### Quantum algorithm for obtaining the energy spectrum of molecular systems
-> H. Wang, S. Kais, A. Aspuru-Guzik, M. R. Hoffmann
-> 
-> [![DOI:10.1039/B804804E](https://img.shields.io/badge/DOI-10.1039/B804804E-blue.svg)](https://doi.org/10.1039/B804804E)
-> 
->> 
->> Simulating a quantum system is more efficient on a quantum computer than on a classical computer. The time required for solving the Schrödinger equation to obtain molecular energies has been demonstrated to scale polynomially with system size on a quantum computer, in contrast to the well-known result of exponential scaling on a classical computer.
->> 
-
 > ### How will quantum computers provide an industrially relevant computational advantage in quantum chemistry?
 > V. E. Elfving, B. W. Broer, M. Webber, J. Gavartin, M. D. Halls, K. P. Lorton, A. Bochevarov
 > 
@@ -239,7 +230,6 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 
 > ### Simulating periodic systems on a quantum computer using molecular orbitals
 > J. Liu, L. Wan, Z. Li, J. Yang
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
 > 
 > [![DOI:10.1039/B804804E](https://img.shields.io/badge/DOI-10.1039/B804804E-blue.svg)](https://doi.org/10.1039/B804804E)
 > 
@@ -254,15 +244,5 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 > 
 >> 
 >> Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems ... Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.
->> 
-
-> ### Characterizing the performance effect of trials and rotations in applications that use Quantum Phase Estimation
-> S. Patil, A. JavadiAbhari, C. F. Chiang, J. Heckey, M. Martonosi, F. T. Chong
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
-> 
-> [![DOI:10.1021/acs.jctc.1c01170](https://img.shields.io/badge/DOI-10.1021/acs.jctc.1c01170-blue.svg)](https://doi.org/10.1021/acs.jctc.1c01170)
-> 
->> 
->> Computational quantum chemistry is among the most promising applications that quantum computers will be able to tackle in coming years. As an example, proof-of-concept calculations solving the time independent Schrödinger equation for small molecular systems has paved the way for the development of robust and efficient algorithms that can exploit the exponential speedup offered by quantum coprocessors. … The ground state energy is estimated using the variational principle by measuring expectation values of the Pauli strings on a parametrized quantum circuit, i.e., wave function ansatz.
 >> 
 
