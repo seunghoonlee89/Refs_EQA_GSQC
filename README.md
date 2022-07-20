@@ -90,7 +90,6 @@ that explicitly or implicitly assume exponential quantum advantage for ground-st
 </p>
 </details>
 
-# Detailed statements
 
 ## Papers that state that ground-state computation is exponentially spedup on quantum computers
 
@@ -114,10 +113,18 @@ a statement that quantum computation for the same task is exponentially faster.
 >> Some progress has been achieved in calculating the ground-state energies of molecules. The quantum phase estimation (QPE) algorithm has been shown to bring about exponential speedup over the currently best classical algorithms for determining the ground states of a given Hamiltonian.
 >> 
 
+> ### Generalized Unitary Coupled Cluster Wave functions for Quantum Computation
+> J. Lee, W. J. Huggins, M. Head-Gordon, K. B. Whaley 
+> 
+> [![DOI:10.1021/acs.jctc.8b01004](https://img.shields.io/badge/DOI-10.1021/acs.jctc.8b01004-blue.svg)](https://doi.org/10.1021/acs.jctc.8b01004)
+> 
+>> 
+>> It was shown early on that quantum phase estimation (QPE) provides an exponential speed-up over the best “currently” known classical algorithms for determining the ground state of the molecular Hamiltonian.
+>> 
 
 ## Papers that state that electronic structure and/or full configuration interaction/exact diagonalization/computation of exact energies is exponentially spedup on quantum computers
 
-These papers have the characteristics that (i) the main application discussed is ground-state electronic structure, and (ii) there are statements that quantum computers exponentially speedup electronic structure/computation of exact energies/full configuration interaction/many-body simulations, without explicitly stating an exponential speedup for ground state electronic structure/exact ground-state energies/ground-state full configuration interaction/ground-state many-body simulations. However, due to (i), one might reasonably infer that (ii) applies in the context of (i). A few of the papers below discuss state preparation, others omit it entirely.
+These papers have the characteristics that (i) the main application discussed is ground-state electronic structure, and (ii) there are statements that quantum computers exponentially speedup electronic structure/computation of exact energies/full configuration interaction/many-body simulations, without explicitly stating an exponential speedup for ground state electronic structure/exact ground-state energies/ground-state full configuration interaction/ground-state many-body simulations. However, due to (i) a reader might reasonably infer that (ii) applies in the context of (i). A few of the papers discuss state preparation, others omit it entirely.
 
 > ### Elucidating reaction mechanisms on quantum computers
 > M. Reiher, N. Wiebe, K. Svore, D. Wecker, M. Troyer
@@ -134,33 +141,17 @@ These papers have the characteristics that (i) the main application discussed is
 > [![DOI:10.48550/arXiv.2204.01443](https://img.shields.io/badge/DOI-10.48550/arXiv.2204.01443-blue.svg)](https://doi.org/10.48550/arXiv.2204.01443)
 > 
 >> 
->> One of the nearest-term application of quantum computers is quantum chemistry, where the focus is on wavefunction theory (WFT) that targets a numerically exact solution of the electronic structure problem. While quantum phase estimation (QPE) algorithms are in principle capable of solving the problem in its entirety … However, despite the exponential speed-up announced by quantum computers, it remains … The full configuration interaction (FCI) method – equivalent to exact diagonalization – scales exponentially with respect to the system size, and an exponential speed-up is given by the KSDFT formalism or by employing quantum computers (QFCI).
+>> One of the nearest-term application of quantum computers is quantum chemistry, where the focus is on wavefunction theory (WFT) that targets a numerically exact solution of the electronic structure problem. While quantum phase estimation (QPE) algorithms are in principle capable of solving the problem in its entirety ... However, despite the exponential speed-up announced by quantum computers, it remains ... The full configuration interaction (FCI) method – equivalent to exact diagonalization – scales exponentially with respect to the system size, and an exponential speed-up is given by the KSDFT formalism or by employing quantum computers (QFCI).
 >> 
 
-
-
-<<<<<<< HEAD
-=======
-
-
-> ### Elucidating reaction mechanisms on quantum computers
-> M. Reiher, N. Wiebe, K. M. Svore, D. Wecker, M. Troyer
-> 
-> [![DOI:10.1073/pnas.1619152114](https://img.shields.io/badge/DOI-10.1073/pnas.1619152114-blue.svg)](https://doi.org/10.1073/pnas.1619152114)
-> 
->> 
->> The promise of exponential speedups for the electronic structure problem has led many to suspect that quantum computers will one day revolutionize chemistry and materials science.
->> 
-
-
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
 > ### Towards quantum chemistry on a quantum computer
 > B. P. Lanyon, J. D. Whitfield, G. G. Gillett, M. E. Goggin, M. P. Almeida, I. Kassal, J. D. Biamonte, M. Mohseni, B. J. Powell, M. Barbieri, A. Aspuru-Guzik, A. G. White 
 > 
 > [![DOI:10.1038/nchem.483](https://img.shields.io/badge/DOI-10.1038/nchem.483-blue.svg)](https://doi.org/10.1038/nchem.483)
 > 
 >> 
->> Exact first-principles calculations of molecular properties are currently intractable because their computational cost grows exponentially with both the number of atoms and basis set size. A solution is to move to a radically different model of computing by building a quantum computer, which is a device that uses quantum systems themselves to store and process data …
+>> Exact first-principles calculations of molecular properties are currently intractable because their computational cost grows exponentially with both the number of atoms and basis set size. A solution is to move to a radically different model of computing by building a quantum computer, which is a device that uses quantum systems 
+themselves to store and process data ...
 It has been proposed that a quantum computer can simulate many-body physical quantum systems (such as molecules) and calculate their energies to a fixed accuracy with a number of quantum computational resources that increases only polynomially with the number of particles.
 >> 
 
@@ -209,11 +200,6 @@ It has been proposed that a quantum computer can simulate many-body physical qua
 >> An alternative way to compute a potential energy surface would be to embed an on-the-fly calculation of electronic structure in the quantum algorithm and thus avoid a classically precomputed fit. This can be done efficiently because electronic structure calculations can be performed in polynomial time on quantum computers. Hence, the quantum circuit 𝒱 would be replaced by a black box containing the efficient quantum version of the full configuration interaction (FCI) procedure.
 >> 
 
-<<<<<<< HEAD
-=======
-
-## Papers that state that quantum chemistry or obtaining energies is exponentially spedup on quantum computers, which then go on to discuss the ground-state problem
-
 > ### Quantum algorithm for obtaining the energy spectrum of molecular systems
 > H. Wang, S. Kais, A. Aspuru-Guzik, M. R. Hoffmann
 > 
@@ -232,7 +218,6 @@ It has been proposed that a quantum computer can simulate many-body physical qua
 >> Even though an exponential speedup of quantum chemical calculations is theoretically expected on quantum hardware, a significant obstacle to consider is the enormous prefactor to the polynomial runtime of quantum computational algorithms.
 >> 
 
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
 > ### Quantum computing applied to calculations of molecular energies: CH2 benchmark
 > L. Veis, J. Pittner
 > 
@@ -252,25 +237,6 @@ It has been proposed that a quantum computer can simulate many-body physical qua
 The accuracy of this approach is demonstrated numerically in finding energies of entangled ground states of many-body lattice models.
 >> 
 
-
-
-
-----
-
-
-<<<<<<< HEAD
-> ### Quantum algorithm for obtaining the energy spectrum of molecular systems
-> H. Wang, S. Kais, A. Aspuru-Guzik, M. Hoffmann
-=======
-> ### A variational eigenvalue solver on a photonic quantum processor
-> A. Peruzzo, J. McClean, P. Shadbolt, M. H. Yung, X. Q. Zhou, P. J. Love, A. Aspuru-Guzik, J. L. O’brien
-> 
-> [![DOI:10.1038/ncomms5213](https://img.shields.io/badge/DOI-10.1038/ncomms5213-blue.svg)](https://doi.org/10.1038/ncomms5213)
-> 
->> 
->> Recent developments in the field of quantum computation offer a way forward for determining efficient solutions of many instances of large eigenvalue problems that are classically intractable. Quantum approaches to finding eigenvalues have previously relied on the quantum phase estimation (QPE) algorithm. The QPE algorithm offers an exponential speedup over classical methods and requires a number of quantum operations O(p^-1) to obtain an estimate with precision p. Moreover, this scaling will also reflect the number of state preparation repetitions required, whereas in QPE the number of state preparation steps is constant. In essence, we dramatically reduce the coherence time requirement while maintaining an exponential advantage over the classical case, by adding a polynomial number of repetitions with respect to QPE.
->> 
-
 > ### Simulating periodic systems on a quantum computer using molecular orbitals
 > J. Liu, L. Wan, Z. Li, J. Yang
 >>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
@@ -281,42 +247,15 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 >> Simulating a quantum system is more efficient on a quantum computer than on a classical computer. The time required for solving the Schrödinger equation to obtain molecular energies has been demonstrated to scale polynomially with system size on a quantum computer, in contrast to the well-known result of exponential scaling on a classical computer.
 >> 
 
-<<<<<<< HEAD
-> ### How will quantum computers provide an industrially relevant computational advantage in quantum chemistry?
-> V. Elfving, B. Broer, M. Webber, J. Gavartin, M. Halls, K. Lorton, A. Bochevarov
-=======
-> ### Generalized Unitary Coupled Cluster Wave functions for Quantum Computation
-> J. Lee, W. J. Huggins, M. Head-Gordon, K. B. Whaley 
-> 
-> [![DOI:10.1021/acs.jctc.8b01004](https://img.shields.io/badge/DOI-10.1021/acs.jctc.8b01004-blue.svg)](https://doi.org/10.1021/acs.jctc.8b01004)
-> 
->> 
->> It was shown early on that quantum phase estimation (QPE) provides an exponential speed-up over the best “currently” known classical algorithms for determining the ground state of the molecular Hamiltonian.
->> 
-
-> ### Quantum simulation of resonant transitions for solving the eigenproblem of an effective water Hamiltonian
-> Z. Li, X. Liu, H. Wang, S. Ashhab, J. Cui, H. Chen, X. Peng, J. Du
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
-> 
-> [![DOI:10.48550/arXiv.2009.12472](https://img.shields.io/badge/DOI-10.48550/arXiv.2009.12472-blue.svg)](https://doi.org/10.48550/arXiv.2009.12472)
-> 
->> 
->> Even though an exponential speedup of quantum chemical calculations is theoretically expected on quantum hardware, a significant obstacle to consider is the enormous prefactor to the polynomial runtime of quantum computational algorithms.
->> 
-
 > ### Exact electronic states with shallow quantum circuits through global optimisation
 > H. G. A. Burton, D. Marti-Dafcik, D. P. Tew, D. J. Wales
 > 
 > [![DOI:10.48550/arXiv.2207.00085](https://img.shields.io/badge/DOI-10.48550/arXiv.2207.00085-blue.svg)](https://doi.org/10.48550/arXiv.2207.00085)
 > 
 >> 
->> Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems. … Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.
+>> Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems ... Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.
 >> 
 
-<<<<<<< HEAD
-> ### Wave function adapted hamiltonians for quantum computing
-> L. Ratini, C. Capecci, F. Benfenati, L. Guidoni
-=======
 > ### Characterizing the performance effect of trials and rotations in applications that use Quantum Phase Estimation
 > S. Patil, A. JavadiAbhari, C. F. Chiang, J. Heckey, M. Martonosi, F. T. Chong
 >>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
@@ -327,9 +266,3 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 >> Computational quantum chemistry is among the most promising applications that quantum computers will be able to tackle in coming years. As an example, proof-of-concept calculations solving the time independent Schrödinger equation for small molecular systems has paved the way for the development of robust and efficient algorithms that can exploit the exponential speedup offered by quantum coprocessors. … The ground state energy is estimated using the variational principle by measuring expectation values of the Pauli strings on a parametrized quantum circuit, i.e., wave function ansatz.
 >> 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 296b5c641002410ecb9b2f53effa310d513acce2
