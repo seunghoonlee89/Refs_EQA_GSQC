@@ -191,16 +191,7 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 >> Quantum computing has the potential to efficiently solve some computational problems that are exponentially hard to solve on classical computers. Among these problems, one of the most prominent cases is the calculation of quantum electronic energies in molecular systems.
 >>
 
-> ### Quantum chemistry in the age of quantum computing
-> Y. Cao, J. Romero, J. P. Olson, M. Degroote, P. D. Johnson, M. Kieferová, I. D. Kivlichan, T. Menke, B. Peropadre, N. P. D. Sawaya, S. Sim, L. Veis, A. Aspuru-Guzik 
->
-> [![DOI:10.1021/acs.chemrev.8b00803](https://img.shields.io/badge/DOI-10.1021/acs.chemrev.8b00803-blue.svg)](https://doi.org/10.1021/acs.chemrev.8b00803)
->
->>
->> For now, at least, we are confident that quantum computers can aid those quantum chemistry computations that require an explicit representation of the wave function, either because of a high accuracy requirement of simulated properties or because of a high degree of entanglement in the system. In these cases, the exponential growth of the dimension of the wave function makes manipulation and storage very inefficient on a classical computer. Indeed, for even moderately large systems it is already intractable to explicitly maintain the full wave function.
->>
-
-> ### Quantum chemistry on quantum computers: A method for preparation of multiconfigurational wave functions on quantum computers without performing post-hartree--fock calculations
+> ### Quantum chemistry on quantum computers: A method for preparation of multiconfigurational wave functions on quantum computers without performing post-hartree-fock calculations
 > K. Sugisaki, S. Nakazawa, K. Toyota, K. Sato, D. Shiomi, T. Takui
 >
 > [![DOI:10.1021/acscentsci.8b00788](https://img.shields.io/badge/DOI-10.1021/acscentsci.8b00788-blue.svg)](https://doi.org/10.1021/acscentsci.8b00788)
@@ -224,5 +215,14 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 > [![DOI:10.1186/s41313-021-00039-z](https://img.shields.io/badge/DOI-10.1186/s41313--021--00039--z-blue.svg)](https://doi.org/10.1186/s41313-021-00039-z)
 >
 >>
->> DMRG and FCIQMC have become routine traditional FCI-type approaches in recent years as they can handle a much larger active space than the conventional CAS-CI algorithm at reasonable computing times. However, formally they still have exponentially scaling resource requirements for storing the wave function … Whether quantum computing will become competitive in the realm of FCI-type approaches will depend on advances in physical memory size and its communication speed with the CPU, because the polynomial scaling of storing the wave function will ultimately become the most significant advantage of quantum computing for the solution of problems in the molecular sciences.
+>> Given that the exponentially scaling wall in FCI calculations can be overcome by quantum computing, we first discuss how quantum algorithms can deliver such exact energies (i.e., eigenvalues of the FCI problem in a given orbital basis). 
+>>
+
+> ### Simulated quantum computation of molecular energies 
+> A. Aspuru-Guzik, A. D. Dutoi, P. J. Love, M. Head-Gordon 
+>
+> [![DOI:10.1126/science.1113479](https://img.shields.io/badge/DOI-10.1126/science.1113479-blue.svg)](https://doi.org/10.1126/science.1113479)
+>
+>>
+>> The calculation time for the energy of atoms and molecules scales exponentially with system size on a classical computer but polynomially using quantum algorithms. 
 >>
