@@ -7,7 +7,7 @@ Note that the set below is only representative; many more such papers exist with
 While some papers contain quite direct statements about EQA for ground-state chemistry, others have more indirect statements or assumptions, which
 might reasonably be interpreted by a reader to mean that EQA is implied. We discuss this in more detail with each reference. 
 
-## Papers that state that ground-state computation is exponentially spedup on quantum computers
+## Papers that state that ground-state computation is exponentially sped up on quantum computers
 
 In these papers, there is generally some statement that obtaining the exact ground-state classically is exponentially expensive AND
 a statement that quantum computation for the same task is exponentially faster. 
