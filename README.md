@@ -226,3 +226,22 @@ The accuracy of this approach is demonstrated numerically in finding energies of
 >>
 >> The calculation time for the energy of atoms and molecules scales exponentially with system size on a classical computer but polynomially using quantum algorithms. 
 >>
+
+> ### Calculating the thermal rate constant with exponential speedup on a quantum computer
+> D. A. Lidar, H. Wang 
+>
+> [![DOI:10.1103/PhysRevE.59.2429](https://img.shields.io/badge/DOI-10.1103/PhysRevE.59.2429-blue.svg)](https://doi.org/10.1103/PhysRevE.59.2429)
+>
+>>
+>> In the context of physics problems, exponential speedup has been demonstrated mostly in the context of simulation of the many-body Schrödinger equation. 
+>>
+
+> ### Quantum chemistry beyond Born–Oppenheimer approximation on a quantum computer: a simulated phase estimation study 
+> L. Veis, J. Višňák, H. Nishizawa, H. Nakai, J. Pittner
+>
+> [![DOI:10.1002/qua.25176](https://img.shields.io/badge/DOI-10.1002/qua.25176-blue.svg)](https://doi.org/10.1002/qua.25176)
+>
+>>
+>> This stems from the fact that the dimensionality of the Hilbert space needed for the description of a studied quantum system scales exponentially with its size. One of the consequences is, for example, the prohibitive exponential scaling of the full configuration interaction (FCI) method. Quantum computers, conversely, offer an exponential speed-up for this task 
+>>
+
